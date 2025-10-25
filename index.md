@@ -18,6 +18,7 @@ In my free time, I enjoy reading books, especially speculative fiction, and draw
 My email address is of the form first_name.last_name@helsinki.fi. 
 
 ##CV
+
 [CV](https://github.com/venlep/venlep.github.io/blob/master/assets/documents/CV_Overleaf2025.pdf)
 
 ## Courses I've Taken
