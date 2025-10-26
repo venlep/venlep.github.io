@@ -29,6 +29,10 @@ Directories and files in user's home directory can be listed, read, copied, etc 
 |nano           |Opens file in text editor|
 |---------------|-------------------------|
 
+#### My thoughts
+
+I think I am starting to grasp the ideas and history of different operating systems, but I definitely focused more on understanding and remembering the basic commands. 
+
 ### Module 2: Text Processing in UNIX
 
 #### Character encodings
@@ -40,3 +44,10 @@ ASCII is an encoding system where all of the 128 characters it is able to expres
 Other encoding systems have been invented to combat this problem, largest of them Unicode that is made to cover every possible character with its 1,114,112 code points. Still, it took long time to develop Unicode and sometimes it might seem a bit excessive. Latin-1 is one of the encodings that utilises the one bit that ASCII leaves unused from a whole byte to represent more characters. UTF-8 is one optimization for Unicode, where as many bytes as needed are used and then highest bits in a byte are used to represent how many bytes the character consists of.
 
 #### Regular Expressions
+
+Regular expressions or RegEx can be used to find specific strings from text files. `grep` is a command that allows us to find lines containing the specified string. You can add different modifiers to do more specific tasks.
+
+`sed` is another command that uses regular expressions. Based on a given RegEx pattern, it finds the occurences of the pattern and changes those occurences as specified with modifiers.
+
+#### My thoughts
+I have used regular expressions before but learning to use them in Bash also seems useful. I prefer using Python's RegEx package just because I am more used to Python, but in the long run, I would assume using `grep`and `sed`can be useful and easier than using Python if I just need to process text. 
