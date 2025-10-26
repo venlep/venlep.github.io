@@ -73,3 +73,30 @@ I have actually used this knowledge about permissions without really understandi
 
 The scripts remind me of text processing I have done with Python, and using pip and virtual environments was familiar to me, eventhough I prefer to use VSCode when I need to code.
  
+## Module 4
+
+#### Remote servers
+
+Remote servers are computers that are accessed through some network and do not need to be physically located in the same place as the user. At least in our case with CSC's Puhti, Puhti can be accessed with SSH using `ssh` command. This works with some kind of personal and public key that allow safe authentication.
+
+To copy files from the remote server, we can use ´scp´command.
+
+#### Git
+
+Git is a version control tool that is widely used to track progress in processes. It creates snapshots of the files and then logs the changes that have been made between the snapshots. With Git, it is possible to create new branches where you can work and not change the main code. Mergin these branches is possible and it is often done when some functionality is tested to be functioning correctly.
+
+GitHub is often used with Git to publish these logs. Having a repository for your project in GitHub makes it possible to share your code and collaborate with others. Users can copy the GitHub repository to their own local directory and then work there and submit their modifications, that can be in different branches, back to the repositorys owner to be added to the master branch.
+
+To update GitHub, following commands are used:
+
+|Command         |Good to remember                                 |
+|----------------|-------------------------------------------------|
+|`git add`       |Adding everything in repo --all                  |
+|----------------|-------------------------------------------------|
+|`git commit -m` |Informative message!                             |
+|----------------|-------------------------------------------------|
+|`git push`      |Check that right branch is used with `git status`| 
+
+#### My thoughts
+
+I think Git and GitHub can be amazing tools to keep track of different projects. Without Git, I have had trouble in remembering, what changes I have made to my projects when I have had to go back to earlier steps, but Git takes care of thet for me if I just remember to do commits often enough and add informative messages. 
