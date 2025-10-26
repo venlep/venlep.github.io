@@ -50,4 +50,26 @@ Regular expressions or RegEx can be used to find specific strings from text file
 `sed` is another command that uses regular expressions. Based on a given RegEx pattern, it finds the occurences of the pattern and changes those occurences as specified with modifiers.
 
 #### My thoughts
+
 I have used regular expressions before but learning to use them in Bash also seems useful. I prefer using Python's RegEx package just because I am more used to Python, but in the long run, I would assume using `grep`and `sed`can be useful and easier than using Python if I just need to process text. 
+
+## Module 3
+
+#### Scripts
+
+If we want to sort of automate series of processes executed in Bash, we can use scripts. Scripts are text files that contain these series of commands we want to create for tasks we often do.
+
+In scripts, we can also use if statements and for loops and while loops.
+
+#### Permissions
+
+When executing scripts, execute permission is needed. You typically can have three types of permissions: read, write and execute, and they can be different for every user. These permissions can be modified with `chmod`command for files and directories.
+
+The reading materials mention the root user, which has access to the highest level of permissions. It can access subdirectories of root other than the home directory, where normal users have accesses to their own home directories. Using the root user can be risky because there is often no reason to change the things only the root user has access to, so it is better to stay logged on as a normal user and then use `sudo`command to execute commands that need permissions only the root user has.
+
+#### My thoughts
+
+I have actually used this knowledge about permissions without really understanding it, and it is interesting to learn why Linux as an operating system works this way. 
+
+The scripts remind me of text processing I have done with Python, and using pip and virtual environments was familiar to me, eventhough I prefer to use VSCode when I need to code.
+ 
