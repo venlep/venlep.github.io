@@ -8,6 +8,27 @@ This course was an important introduction to UNIX and different command line too
 
 ### Module 1: Command line basics and UNIX
 
+#### Operating systems
+
+This module was about the basics of command line and UNIX. UNIX is an operating system, but it is also often used as an umbrella term for UNIX-like operating systems such as Linux. Linux is also an operating system, newer that UNIX, and it is open-source option. 
+
+#### Basic commands
+
+When using Bash, you always have to think about directories and files. Root is the highest directory that includes subdirectories like home directory and subdirectories that include things that the operation system needs and which are available to all users if there are more than one.
+
+Directories and files in user's home directory can be listed, read, copied, etc using Bash. In the following table, the commands I mostly used during this course are listed:
+
+|Command        |Use                      |
+|---------------|-------------------------|
+|ls             |List contents            |
+|---------------|-------------------------|
+|cd             |Change directory         |
+|---------------|-------------------------|
+|mkdir          |Create directory         |
+|---------------|-------------------------|
+|nano           |Opens file in text editor|
+|---------------|-------------------------|
+
 ### Module 2: Text Processing in UNIX
 
 #### Character encodings
